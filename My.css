@@ -11,9 +11,94 @@ body, html {
     height: 100%;
 }
 
+.bg-jazz {
+    /* The image used */
+    background-image: url("jazz.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg-hiphop {
+    /* The image used */
+    background-image: url("hiphop.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg-rock {
+    /* The image used */
+    background-image: url("rock.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+}
+
 .bg {
     /* The image used */
     background-image: url("sitebackground.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg-rap{
+    /* The image used */
+    background-image: url("RAP.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg-dubstep {
+    /* The image used */
+    background-image: url("dubstep.jpg");
 
     /* Full height */
     height: 100%;
