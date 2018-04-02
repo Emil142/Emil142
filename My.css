@@ -124,5 +124,24 @@ body, html {
 .dubstep-font{
   font-size: 50px;
   color: cyan;
+}
 
+.rap-font{
+  font-size: 50px;
+  color: blue;
+}
+
+.rock-font{
+  font-size: 50px;
+  color: red;
+}
+
+.jazz-font{
+  font-size: 50px;
+  color: orange;
+}
+
+.hiphop-font{
+  font-size: 50px;
+  color: limegreen;
 }
