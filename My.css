@@ -109,6 +109,23 @@ body, html {
     background-size: cover;
 }
 
+body, html {
+    height: 100%;
+}
+
+.bg-trap {
+    /* The image used */
+    background-image: url("trap.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .center-div
 
 {
@@ -144,4 +161,9 @@ body, html {
 .hiphop-font{
   font-size: 50px;
   color: limegreen;
+}
+
+.trap-font{
+  font-size: 50px;
+  color: yellow;
 }
