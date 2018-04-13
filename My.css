@@ -160,6 +160,23 @@ body, html {
     background-size: cover;
 }
 
+body, html {
+    height: 100%;
+}
+
+.bg-edm {
+    /* The image used */
+    background-image: url("edm.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .center-div
 
@@ -211,4 +228,9 @@ body, html {
 .fortminor-font{
   font-size: 50px;
   color: orangered;
+}
+
+.edm-font{
+  font-size: 50px;
+  color: coral;
 }
