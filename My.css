@@ -12,6 +12,7 @@ body, html {
 }
 
 .bg-jazz {
+  background-attachment: fixed;
     /* The image used */
     background-image: url("jazz.jpg");
 
@@ -24,11 +25,10 @@ body, html {
     background-size: cover;
 }
 
-body, html {
-    height: 100%;
-}
+
 
 .bg-rmx {
+  background-attachment: fixed;
     /* The image used */
     background-image: url("rmx.jpg");
 
@@ -41,11 +41,9 @@ body, html {
     background-size: cover;
 }
 
-body, html {
-    height: 100%;
-}
 
 .bg-hiphop {
+  background-attachment: fixed;
     /* The image used */
     background-image: url("hiphop.jpg");
 
@@ -58,11 +56,9 @@ body, html {
     background-size: cover;
 }
 
-body, html {
-    height: 100%;
-}
 
 .bg-rock {
+  background-attachment: fixed;
     /* The image used */
     background-image: url("rock.jpg");
 
@@ -75,9 +71,6 @@ body, html {
     background-size: cover;
 }
 
-body, html {
-    height: 100%;
-}
 
 .bg {
     background-attachment: fixed;
@@ -94,11 +87,10 @@ body, html {
     background-size: cover;
 }
 
-body, html {
-    height: 100%;
-}
+
 
 .bg-rap{
+  background-attachment: fixed;
     /* The image used */
     background-image: url("RAP.jpg");
 
@@ -111,11 +103,10 @@ body, html {
     background-size: cover;
 }
 
-body, html {
-    height: 100%;
-}
+
 
 .bg-dubstep {
+  background-attachment: fixed;
     /* The image used */
     background-image: url("dubstep.jpg");
 
@@ -128,11 +119,10 @@ body, html {
     background-size: cover;
 }
 
-body, html {
-    height: 100%;
-}
+
 
 .bg-trap {
+  background-attachment: fixed;
     /* The image used */
     background-image: url("trap.jpg");
 
@@ -145,11 +135,10 @@ body, html {
     background-size: cover;
 }
 
-body, html {
-    height: 100%;
-}
+
 
 .bg-skrillex {
+  background-attachment: fixed;
     /* The image used */
     background-image: url("skrillex.jpg");
 
@@ -162,11 +151,10 @@ body, html {
     background-size: cover;
 }
 
-body, html {
-    height: 100%;
-}
+
 
 .bg-fortminor {
+  background-attachment: fixed;
     /* The image used */
     background-image: url("fortminor.jpg");
 
@@ -179,11 +167,10 @@ body, html {
     background-size: cover;
 }
 
-body, html {
-    height: 100%;
-}
+
 
 .bg-edm {
+  background-attachment: fixed;
     /* The image used */
     background-image: url("edm.jpg");
 
