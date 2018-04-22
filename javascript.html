@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>JavaScript Course</title>
+
+
+
+</head>
+
+<body>
+  time:
+<input id="time_input_elem"/>
+
+
+distance:
+<input id="distance_input_elem"/>
+
+speed:
+<input id="speed_input_elem"/>
+
+<button onclick="calculateSpeed();" type="button">Calculate Speed</button>
+
+</body>
+
+<script>
+//alert(" ! ! ! HELLO EMIL ! ! ! ");
+//console.log("Hello Emil!")
+function calculateSpeed() {
+  var timeInput = document.getElementById("time_input_elem");
+  //alert(timeInput.value);
+  var distanceInput = document.getElementById("distance_input_elem");
+  var speedInput = document.getElementById("speed_input_elem");
+
+  var time = parseInt(timeInput.value);
+  var distance = parseInt(distanceInput.value);
+
+  speedInput.value = distance / time;
+}
+
+
+//alert("The speed is" + speed(10,200));
+
+
+</script>
+
+</html>
