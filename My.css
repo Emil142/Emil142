@@ -28,6 +28,23 @@ body, html {
     height: 100%;
 }
 
+.bg-rmx {
+    /* The image used */
+    background-image: url("rmx.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+}
+
 .bg-hiphop {
     /* The image used */
     background-image: url("hiphop.jpg");
@@ -63,6 +80,8 @@ body, html {
 }
 
 .bg {
+    background-attachment: fixed;
+
     /* The image used */
     background-image: url("sitebackground.jpg");
 
