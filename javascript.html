@@ -12,9 +12,12 @@
   time:
 <input id="time_input_elem"/>
 
+<button onclick="calculateTime();" type="button">Calculate Time</button>
 
 distance:
 <input id="distance_input_elem"/>
+
+<button onclick="calculateDistance();" type="button">Calculate Distance</button>
 
 speed:
 <input id="speed_input_elem"/>
@@ -24,11 +27,8 @@ speed:
 </body>
 
 <script>
-//alert(" ! ! ! HELLO EMIL ! ! ! ");
-//console.log("Hello Emil!")
 function calculateSpeed() {
   var timeInput = document.getElementById("time_input_elem");
-  //alert(timeInput.value);
   var distanceInput = document.getElementById("distance_input_elem");
   var speedInput = document.getElementById("speed_input_elem");
 
@@ -37,6 +37,29 @@ function calculateSpeed() {
 
   speedInput.value = distance / time;
 }
+
+function calculateTime() {
+  var speedInput = document.getElementById("speed_input_elem");
+  var distanceInput = document.getElementById("distance_input_elem");
+  var timeInput = document.getElementById("time_input_elem");
+
+  var speed = parseInt(speedInput.value);
+  var distance = parseInt(distanceInput.value);
+
+  timeInput.value = distance / speed;
+}
+
+function calculateDistance() {
+  var speedInput = document.getElementById("speed_input_elem");
+  var timeInput = document.getElementById("time_input_elem");
+  var distanceInput = document.getElementById("distance_input_elem");
+
+  var speed = parseInt(speedInput.value);
+  var time = parseInt(timeInput.value);
+
+  distanceInput.value = speed * time;
+}
+
 
 
 //alert("The speed is" + speed(10,200));
