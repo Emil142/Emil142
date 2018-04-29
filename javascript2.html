@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>JavaScript Course №2</title>
+
+
+
+</head>
+
+<body>
+  pressure:
+<input id="pressure_input_elem"/>
+
+<button onclick="calculatePressure();" type="button">Calculate Pressure</button>
+
+concentration:
+<input id="concentration_input_elem"/>
+
+<button onclick="concentrationDistance();" type="button">Calculate Concentration</button>
+
+temperature:
+<input id="temperature_input_elem"/>
+
+<button onclick="calculateTemperature();" type="button">Calculate Temperature</button>
+
+
+</body>
+
+<script>
+function calculatePressure() {
+  var concentrationInput = document.getElementById("concentration_input_elem");
+  var temperatureInput = document.getElementById("temperature_input_elem");
+  var pressureInput = document.getElementById("pressure_input_elem");
+
+  var concentration = parseInt(concentrationInput.value);
+  var temperature = parseInt(temperatureInput.value);
+
+  pressureInput.value = concentration * temperature * 1,38*10^-23;
+}
+
+function calculateConcentration() {
+  var temperatureInput = document.getElementById("temperature_input_elem");
+  var pressureInput = document.getElementById("pressure_input_elem");
+  var concentrationInput = document.getElementById("concentration_input_elem");
+
+  var temperature = parseInt(temperatureInput.value);
+  var pressure = parseInt(pressureInput.value);
+
+  concentrationInput.value = pressure / 1,38*10^-23 * temperature;
+}
+
+function calculateTemperature() {
+  var concentrationInput = document.getElementById("concentration_input_elem");
+  var pressureInput = document.getElementById("pressure_input_elem");
+  var temperatureInput = document.getElementById("temperature_input_elem");
+
+  var concentration = parseInt(concentrationInput.value);
+  var pressure = parseInt(pressureeInput.value);
+
+  temperatureInput.value =  pressure / 1,38*10^-23 * concentration ;
+}
+
+
+
+
+
+</script>
+
+</html>
